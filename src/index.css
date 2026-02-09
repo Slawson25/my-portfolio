@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-950 text-slate-100;
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.card-hover:hover {
+	transform: translateY(-5px);
+	border-color: #38bdf8 !important;
+	box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.3);
+}
